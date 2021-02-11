@@ -3,3 +3,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    padding: 50px 100px;
+}
+
+/* UTILITY */
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* HEADER */
+header{
+    height: 100px; /*fake content */
+    background-color: rgb(252, 90, 225);
+    margin-bottom: 20px;
+}
+
+/* MAIN-CONTENT */
+
+/* 1 SEZIONE */
+main .image{
+    height: 400px; /*fake content*/
+    background-color: rgb(236, 236, 65);
+    margin-bottom: 20px;
+}
+/* 2 SEZIONE */
+main .title{
+    height: 60px; /*fake content*/
+    background-color: lightblue;
+}
+
+/* 3 SEZIONE */
+main .container{
+    height: 500px; /*fake content*/
+    background-color: rgb(65, 65, 247);
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+.subsection{
+    background-color: lightblue;
+    float: left;
+}
+
+.subsection.two{
+    width: 56%;
+    height: 100%;
+    margin: 0 2%;
+}
+
+.subsection.one,
+.subsection.three{
+    width: 20%;
+    height: 100%;
+}
+
+/* FOOTER */
+footer{
+    height: 50px;
+    background-color: rgb(155, 15, 155);
+}
